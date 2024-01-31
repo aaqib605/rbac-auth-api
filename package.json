@@ -1,0 +1,24 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "RBAC based authentication API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon backend/server",
+    "server": "node backend/server"
+  },
+  "author": "Aaqib Javaid",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
